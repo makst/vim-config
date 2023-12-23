@@ -1,3 +1,4 @@
+* [x] colorscheme 
 * [] chatgpt
 * [] debug
 * [] feline
