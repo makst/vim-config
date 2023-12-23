@@ -5,6 +5,9 @@ local nvimtree = require('user.nvim-tree.config');
 local user_overwrites = {
   leader = ",",
   builtin = {
+    bufferline = {
+      active = false,
+    },
     which_key = {
       mappings = {
       }
