@@ -4,14 +4,20 @@ no need to migrate it, lualine replaced feline in the lvim setup.
 * [x] nvim-tree
 * [x] base16-vim
 * [x] keymaps (*file*)
-* [] chatgpt
+* [x] treesitter
+nothing to migrate from the old config
+* [x] web-devicons
+nothing to migrate from the old config
+* [x] chatgpt
+nothing to migrate from the old config (skip it for now)
+* [x] impatient
+it's not needed since the startup time seems to be optimized by using [lazy](https://github.dev/folke/lazy.nvim)
 * [] debug
 * [] ferret
 * [] git
 * [] harpoon
 * [] hidden
 * [] hop
-* [] impatient
 * [] indent-blankline
 * [] lsp
 * [] luasnip
@@ -22,10 +28,7 @@ no need to migrate it, lualine replaced feline in the lvim setup.
 * [] autopairs
 * [] base (*file*)
 * [] nvim-comment
-* [] plugins
-* [] treesitter
 * [] ts-autotag
-* [] web-devicons
 
 
 
