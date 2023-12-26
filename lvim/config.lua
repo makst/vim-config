@@ -4,6 +4,7 @@ local plugins = require('user.plugins');
 local utils = require('user.my-utils');
 local nvimtree = require('user.nvim-tree.config');
 local lualine = require('user.lualine.config');
+local which_key = require('user.which-key.config');
 
 local user_overwrites = {
   leader = ",",
@@ -14,12 +15,10 @@ local user_overwrites = {
     bufferline = {
       active = false,
     },
-    which_key = {
-      mappings = {}
-    },
+    which_key = which_key,
     nvimtree = nvimtree,
   },
 }
 
 utils.mergeTables(lvim, user_overwrites)
--- print(vim.inspect(lvim.plugins))
+-- print(vim.inspect(lvim.builtin.which_key.mappings))
