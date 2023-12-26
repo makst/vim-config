@@ -1,4 +1,5 @@
 require('user.keymaps')
+require('user.dap.config');
 local plugins = require('user.plugins');
 local utils = require('user.my-utils');
 local nvimtree = require('user.nvim-tree.config');
