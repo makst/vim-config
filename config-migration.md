@@ -2,6 +2,7 @@
 * [x] feline
 no need to migrate it, lualine replaced feline in the lvim setup.
 * [x] nvim-tree
+* [x] base16-vim
 * [] chatgpt
 * [] debug
 * [] ferret
@@ -18,8 +19,7 @@ no need to migrate it, lualine replaced feline in the lvim setup.
 * [] toggleterm
 * [] tree-climber
 * [] autopairs
-* [] base
-* [] base16-vim
+* [] base (*file*)
 * [] keymaps
 * [] nvim-comment
 * [] plugins
