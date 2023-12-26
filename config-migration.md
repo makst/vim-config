@@ -13,6 +13,8 @@ nothing to migrate from the old config (skip it for now)
 * [x] impatient
 it's not needed since the startup time seems to be optimized by using [lazy](https://github.dev/folke/lazy.nvim)
 * [x] debug
+* [x] toggleterm
+won't migrate
 * [] ferret
 * [] git
 * [] harpoon
@@ -23,7 +25,6 @@ it's not needed since the startup time seems to be optimized by using [lazy](htt
 * [] luasnip
 * [] symbols-outline
 * [] telescope
-* [] toggleterm
 * [] tree-climber
 * [] autopairs
 * [] base (*file*)
