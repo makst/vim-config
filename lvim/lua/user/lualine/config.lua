@@ -1,7 +1,10 @@
 local lualine = {
+  style = 'default',
   options = {
     icons_enabled = true,
-    theme = 'auto',
+    theme = 'onedark',
+    section_separators = '',
+    component_separators = ''
   }
 }
 
