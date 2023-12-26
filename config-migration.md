@@ -1,7 +1,9 @@
 * [x] colorscheme 
+* [x] feline
+no need to migrate it, lualine replaced feline in the lvim setup.
+* [x] nvim-tree
 * [] chatgpt
 * [] debug
-* [] feline
 * [] ferret
 * [] git
 * [] harpoon
@@ -11,7 +13,6 @@
 * [] indent-blankline
 * [] lsp
 * [] luasnip
-* [x] nvim-tree
 * [] symbols-outline
 * [] telescope
 * [] toggleterm
