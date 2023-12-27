@@ -5,6 +5,7 @@ local utils = require('user.my-utils');
 local nvimtree = require('user.nvim-tree.config');
 local lualine = require('user.lualine.config');
 local which_key = require('user.which-key.config');
+local telescope = require('user.telescope.config');
 
 local user_overwrites = {
   leader = ",",
@@ -17,8 +18,9 @@ local user_overwrites = {
     },
     which_key = which_key,
     nvimtree = nvimtree,
+    telescope = telescope,
   },
 }
 
 utils.mergeTables(lvim, user_overwrites)
--- print(vim.inspect(lvim.builtin.which_key.mappings))
+-- print(vim.inspect(lvim.builtin.telescope))
