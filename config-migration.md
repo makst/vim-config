@@ -15,6 +15,8 @@ it's not needed since the startup time seems to be optimized by using [lazy](htt
 * [x] debug
 * [x] toggleterm
 won't migrate
+* [x] telescope
+migrate ui-select, didn't migrate "project" plugin used before, started using project from lunarvim distro.
 * [] ferret
 * [] git
 * [] harpoon
@@ -24,7 +26,6 @@ won't migrate
 * [] lsp
 * [] luasnip
 * [] symbols-outline
-* [] telescope
 * [] tree-climber
 * [] autopairs
 * [] base (*file*)

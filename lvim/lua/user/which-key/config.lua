@@ -4,6 +4,7 @@ local which_key = {
     ["f"] = { "<cmd>NvimTreeFindFileToggle<CR>", "Find File Toggle" },
     s = {
       g = { "<cmd>Telescope git_files<cr>", "Find Git File" },
+      p = { "<cmd>Telescope projects<cr>", "Projects" },
     }
   }
 }

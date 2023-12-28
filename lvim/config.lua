@@ -6,19 +6,19 @@ local nvimtree = require('user.nvim-tree.config');
 local lualine = require('user.lualine.config');
 local which_key = require('user.which-key.config');
 local telescope = require('user.telescope.config');
+local project = require('user.project.config');
 
 local user_overwrites = {
   leader = ",",
   plugins = plugins,
   colorscheme = "base16-onedark",
   builtin = {
+    bufferline = { active = false },
     lualine = lualine,
-    bufferline = {
-      active = false,
-    },
     which_key = which_key,
     nvimtree = nvimtree,
     telescope = telescope,
+    project = project
   },
 }
 

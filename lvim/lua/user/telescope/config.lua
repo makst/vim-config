@@ -1,3 +1,8 @@
+local status, telescope = pcall(require, 'telescope')
+if (not status) then return end
+
+telescope.load_extension('ui-select');
+
 -- rest path display so we could override it
 lvim.builtin.telescope.defaults.path_display = {};
 
