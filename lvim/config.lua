@@ -1,3 +1,4 @@
+require('user.base')
 require('user.ferret')
 require('user.keymaps')
 require('user.dap.config');

@@ -22,6 +22,7 @@ migrate my old search & replace config
 * [x] git
 * [x] hidden
 no need to migrate, it's just about setting up project dirs
+* [x] base (*file*)
 * [] harpoon
 * [] hop
 * [] indent-blankline
@@ -30,7 +31,6 @@ no need to migrate, it's just about setting up project dirs
 * [] symbols-outline
 * [] tree-climber
 * [] autopairs
-* [] base (*file*)
 * [] nvim-comment
 * [] ts-autotag
 
