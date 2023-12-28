@@ -19,7 +19,7 @@ won't migrate
 migrate ui-select, didn't migrate "project" plugin used before, started using project from lunarvim distro.
 * [x] ferret & qfreplace
 migrate my old search & replace config 
-* [] git
+* [x] git
 * [] harpoon
 * [] hidden
 * [] hop

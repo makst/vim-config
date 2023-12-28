@@ -5,6 +5,9 @@ local which_key = {
     s = {
       g = { "<cmd>Telescope git_files<cr>", "Find Git File" },
       p = { "<cmd>Telescope projects<cr>", "Projects" },
+    },
+    g = {
+      o = { "<cmd>lua require('git.browse').open(false)<cr>", "Git Open in Browser"}
     }
   }
 }

@@ -4,7 +4,9 @@ local plugins = {
   { 'nvim-telescope/telescope-ui-select.nvim' },
   -- search/replace
   { 'thinca/vim-qfreplace' },
-  { 'wincent/ferret' }
+  { 'wincent/ferret' },
+  -- git
+  { 'dinhhuy258/git.nvim' }
 }
 
 return plugins;
