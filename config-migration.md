@@ -17,7 +17,8 @@ it's not needed since the startup time seems to be optimized by using [lazy](htt
 won't migrate
 * [x] telescope
 migrate ui-select, didn't migrate "project" plugin used before, started using project from lunarvim distro.
-* [] ferret
+* [x] ferret & qfreplace
+migrate my old search & replace config 
 * [] git
 * [] harpoon
 * [] hidden

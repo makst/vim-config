@@ -1,3 +1,4 @@
+require('user.ferret')
 require('user.keymaps')
 require('user.dap.config');
 local plugins = require('user.plugins');
