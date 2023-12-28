@@ -20,8 +20,9 @@ migrate ui-select, didn't migrate "project" plugin used before, started using pr
 * [x] ferret & qfreplace
 migrate my old search & replace config 
 * [x] git
+* [x] hidden
+no need to migrate, it's just about setting up project dirs
 * [] harpoon
-* [] hidden
 * [] hop
 * [] indent-blankline
 * [] lsp
