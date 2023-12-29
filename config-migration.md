@@ -23,13 +23,15 @@ migrate my old search & replace config
 * [x] hidden
 no need to migrate, it's just about setting up project dirs
 * [x] base (*file*)
+* [x] hop
+wasn't using it much lately so not migrating
+* [x] tree-climber
+wasn't using it much lately so not migrating
 * [] harpoon
-* [] hop
 * [] indent-blankline
 * [] lsp
 * [] luasnip
 * [] symbols-outline
-* [] tree-climber
 * [] autopairs
 * [] nvim-comment
 * [] ts-autotag
